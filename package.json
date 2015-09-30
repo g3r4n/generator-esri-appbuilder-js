@@ -4,7 +4,7 @@
   "description": "Yeoman generator to help customize the ArcGIS Web AppBuilder",
   "license": "Apache",
   "main": "app/index.js",
-  "repository": "g3r4n/generator-esri-appbuilder-js",
+  "repository": "g3r4n/generator-wab",
   "author": {
     "name": "Enguerrand des Vaux",
     "email": "enguerrand.des-vaux@capgemini.com",
