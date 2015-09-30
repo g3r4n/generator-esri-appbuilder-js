@@ -106,7 +106,7 @@ var WidgetGenerator = yeoman.generators.Base.extend({
     // NOTE: this is needed b/c _Widget.html has ES6 style interpolation delimiters
     // see: https://github.com/lodash/lodash/issues/399
     this._.templateSettings.interpolate = /<%=([\s\S]+?)%>/g;
-    var basePath = path.join('widgets', this.widgetName);
+    var basePath = path.join('widgetsDev', this.widgetName);
     this.template('_Widget.js', path.join(basePath, 'Widget.js'));
     if (this.hasUIFile) {
       this.template('_Widget.html', path.join(basePath, 'Widget.html'));

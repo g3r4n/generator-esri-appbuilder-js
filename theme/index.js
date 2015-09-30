@@ -50,7 +50,7 @@ var ThemeGenerator = yeoman.generators.Base.extend({
     // see: https://github.com/lodash/lodash/issues/399
     this._.templateSettings.interpolate = /<%=([\s\S]+?)%>/g;
      
-      var basePath = path.join('themes', this.themeNameClean);
+      var basePath = path.join('themesDev', this.themeNameClean);
       //css
       this.src.copy('_common.css', path.join(basePath, 'common.css'));
       //folders
