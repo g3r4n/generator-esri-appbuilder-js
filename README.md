@@ -1,4 +1,4 @@
-# generator-esri-appbuilder-js [![Build Status](https://secure.travis-ci.org/Esri/generator-esri-appbuilder-js.png?branch=master)](https://travis-ci.org/Esri/generator-esri-appbuilder-js)
+# generator-wab [![Build Status](https://secure.travis-ci.org/Esri/generator-wab.png?branch=master)](https://travis-ci.org/Esri/generator-wab)
 
 > [Yeoman](http://yeoman.io) generator to help customize [the ArcGIS Web AppBuilder](https://developers.arcgis.com/web-appbuilder/).
 
@@ -18,10 +18,10 @@ To install Yeoman from npm (if not already), run:
 $ npm install -g yo
 ```
 
-To install generator-esri-appbuilder-js from npm, run:
+To install generator-wab from npm, run:
 
 ```bash
-$ npm install -g generator-esri-appbuilder-js
+$ npm install -g generator-wab
 ```
 
 ### Running the Generators
@@ -33,7 +33,7 @@ The generators should be run in the root folder of either the stem app or an app
 Currently the app generator doesn't do much other than install some project files (`package.json`, `.jshintrc`, etc) and ensure required subfolders (like `widgets`) exist. The subgenerators do most of the work.
 
 1. Navigate into either `stemapp` or `server/apps/[appId]` under your local Web AppBuilder installation
-2. Run the generator with `yo esri-appbuilder-js`
+2. Run the generator with `yo wab`
 3. Answer the man's questions!
 
 |Prompt|Description|Default|
@@ -45,7 +45,7 @@ Currently the app generator doesn't do much other than install some project file
 Scaffolds out the files needed to create a new custom widget.
 
 1. Navigate into either `stemapp` or `server/apps/[appId]` under your local Web AppBuilder installation
-2. Run the generator with `yo esri-appbuilder-js:widget`
+2. Run the generator with `yo wab:widget`
 3. Answer the man's questions!
 
 |Prompt|Description|Default|
@@ -88,7 +88,7 @@ The next time you run the Web AppBuilder, you will see something like the follow
 Scaffolds out the files needed to create a new custom theme based on the default Foldable Theme by Esri.
 
 1. Navigate into either `stemapp` or `server/apps/[appId]` under your local Web AppBuilder installation
-2. Run the generator with `yo esri-appbuilder-js:theme`
+2. Run the generator with `yo wab:theme`
 3. Answer the man's questions!
 
 |Prompt|Description|Default|
@@ -99,14 +99,11 @@ Scaffolds out the files needed to create a new custom theme based on the default
 
 ## Issues
 
-Find a bug or want to request a new feature?  Please let us know by [submitting an issue](https://github.com/Esri/generator-esri-appbuilder-js/issues).
+Find a bug or want to request a new feature?  Please let us know by [submitting an issue](https://github.com/Esri/generator-wab/issues).
 
-## Contributing
-
-We welcome contributions from anyone and everyone. Please see Esri's [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Credit
-
+Original work : by [@tomwayson](https://github.com/tomwayson)
 This generator was inspired by [@steveoh](https://github.com/steveoh) and [@stdavis](https://github.com/stdavis)'s [generator-dojo-widget](https://github.com/steveoh/generator-dojo-widget) as well as [@dbouwman](https://github.com/dbouwman)'s [generator-bootmap](https://github.com/dbouwman/generator-bootmap).
 
 ## Licensing
@@ -123,7 +120,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-A copy of the license is available in the repository's [license.txt](https://raw.githubusercontent.com/Esri/generator-esri-appbuilder-js/master/license.txt) file.
+A copy of the license is available in the repository's [license.txt](https://raw.githubusercontent.com/Esri/generator-wab/master/license.txt) file.
 
 [](Esri Tags: web AppBuilder yeoman generator node)
 [](Esri Language: JavaScript)
