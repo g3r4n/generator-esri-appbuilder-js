@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-esri-appbuilder-js' ]; then cd .. && eval "mv $currentfolder generator-esri-appbuilder-js" && cd generator-esri-appbuilder-js; fi
+  - if [ "$currentfolder" != 'generator-wab' ]; then cd .. && eval "mv $currentfolder generator-wab" && cd generator-wab; fi
 
