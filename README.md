@@ -1,4 +1,4 @@
-# generator-wab [![Build Status](https://secure.travis-ci.org/Esri/generator-wab.png?branch=master)](https://travis-ci.org/Esri/generator-wab)
+# generator-wab [![Build Status](https://secure.travis-ci.org/g3r4n/generator-wab.png?branch=master)](https://travis-ci.org/g3r4n/generator-wab)
 
 > [Yeoman](http://yeoman.io) generator to help customize [the ArcGIS Web AppBuilder](https://developers.arcgis.com/web-appbuilder/).
 
